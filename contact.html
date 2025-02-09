@@ -31,67 +31,113 @@
     ></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="images/logo.png" alt="" class="logo" />
-          </a>
-        <button 
-          class="navbar-toggler" 
-          type="button" 
-          data-bs-toggle="collapse" 
-          data-bs-target="#navbarNav" 
-          aria-controls="navbarNav" 
-          aria-expanded="false" 
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" 
-              href="/">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/work.html">Work</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="/contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/">
+          <img 
+            src="images/logo.png" 
+            class="logo d-none d-md-block" 
+            alt="logo project" />
+          <img
+            src="images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt="Jing Hui logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage"> Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Jing"> About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Jing work"> Work</a>
+          </li>
+          <li class="active">
+            <a href="/contact.html" title="Contact Jing"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Let's get in touch!</h1>
         <h3>Email</h3>
         <p>
-          <a href="mailto:934192776@qq.com">
-            934192776@qq.com
-          </a>
+          <a href="mailto:934192776@qq.com">934192776@qq.com </a>
         </p>
 
-        <h3>Twitter</h3>
+        <h3>Facebook</h3>
         <p>
-          <a href="https://www.twitter.com/934192776" target="_blank">
+          <a href="https://www.facebook.com/jing.hui.5855594" target="_blank">
             @934192776
           </a>
         </p>
 
         <h3>Instagram</h3>
         <p>
-          <a href="https://www.instagram.com/934192776.codes" target="_blank">
+          <a href="https://www.instagram.com/jhui309" target="_blank">
             @934192776.codes
           </a>
         </p>
-
       </div>
     </div>
+    <footer class="container">
+      <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+        <div>
+         <h3>Work inquiry</h3>
+           <p class="text-muted"> Let's work together</p>
+          </div>
+          <div>
+            <a 
+              href="/contact.html" 
+              class="btn btn-branding mt-3"
+              title="Contact Jing"> Contact me</a>
+          </div>
+        </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a 
+          href="mailto:934192776@qq.com" 
+          class="email-link"
+          title="Email Jing Hui"
+        >
+          934192776@qq.com
+        </a>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a 
+          href="https://www.github.com/934192776" 
+          target="_blank"
+          title="GitHub Profile"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+        <a 
+          href="https://www.instagram.com/jhui309" 
+          target="_blank"
+          title="instagram profile"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a 
+          href="https://www.facebook.com/jing.hui.5855594" 
+          target="_blank"
+          title="facebook profile"
+          >
+          <i class="fab fa-facebook"></i>
+        </a>
+     </div>
+     <p class="text-center mt-5">
+      ✌️ This website was coded by Jing Hui, and is
+      <a
+        href="https://github.com/934192776/portfolio-project"
+        target="_blank"
+      >
+        open-sourced
+      </a>
+     </p>
+    </footer>
   </body>
 </html>
