@@ -141,6 +141,15 @@ nav li.active a {
   color: var(--branding-color);
 }
 
+.form-label {
+  padding:15px;
+}
+
+.form-control {
+  padding:15px;
+  border-radius:5px;
+}
+
 footer {
   margin: 60px 0;
 }
@@ -182,7 +191,7 @@ footer .social-links a:hover {
 
 @media (max-width: 900px) {
   h1 {
-    font-size: 44px;
+    font-size: 74px;
     line-height: 1.5;
   }
 
